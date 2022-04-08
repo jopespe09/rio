@@ -1,0 +1,74 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #E4E6E7;
+}
+
+p {
+    margin-top: 10px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+a {
+    text-decoration-line: underline;
+    color: grey;
+}
+
+.topo {
+    position: relative;
+    background-image: url(https://images.pexels.com/photos/351283/pexels-photo-351283.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 20%;
+    border: 1px solid white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.topo h1 {
+    text-align: center;
+    letter-spacing: 10px;
+    color: #070B19;
+    font-size: 40px;
+}
+
+.turism {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 60px;
+    padding: 100px;
+}
+
+.text {
+    display: block;
+    box-sizing: border-box;
+    padding: 10px;
+    line-height: 22px;
+}
+
+.atractions {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+  }
+
+  .atractions img {
+    width: 100%;
+    height: auto;
+    border: 2px solid white;
+    border-radius: 20px;
+  }
+
+
+  .rio {
+    flex-basis: 300px;
+    font-size: 15px;
+  }
